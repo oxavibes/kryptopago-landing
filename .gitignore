@@ -68,3 +68,5 @@ Thumbs.db
 *.eot
 *.ttf
 *.woff
+
+/vendors
