@@ -6,20 +6,21 @@
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
-    }, "type the correct answer -_-");
+    }, "type the correct answer");
 
     // validate contactForm form
     $(function() {
         $('#contactForm').validate({
+            debug: true,
             rules: {
                 name: {
                     required: true,
                     minlength: 2
                 },
-                name2: {
+                /*name2: {
                     required: true,
                     minlength: 2
-                },
+                },*/
                 email: {
                     required: true,
                     email: true
@@ -38,10 +39,6 @@
                     required: "come on, your name, don't you?",
                     minlength: "your name must consist of at least 2 characters"
                 },
-                name2: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
-                },
                 email: {
                     required: "no email, no message"
                 },
@@ -49,7 +46,7 @@
                     required: "please input your subject"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
+                    required: "uhm...yea, you have to write something to send this form.",
                     minlength: "thats all? really?"
                 }
             },
@@ -59,7 +56,7 @@
                     data: $(form).serialize(),
                     url:"contact_process.php",
                     success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
+                        $('#contactForm :input').val('');
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
