@@ -54,7 +54,7 @@
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
-                    url:"contact_process.php",
+                    url:"contact_form.php",
                     success: function() {
                         $('#contactForm :input').val('');
                         $('#contactForm').fadeTo( "slow", 1, function() {

@@ -10414,6 +10414,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .payment_clients_area .payment_clients_inner .clients_item {
   border-width: 5px;
   border-color: #f6f6fa;
+  display: inline-flex;
   border-style: solid;
   border-radius: 10px;
   background-color: white;
