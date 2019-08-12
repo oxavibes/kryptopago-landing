@@ -21515,6 +21515,64 @@ a .h_head:hover {
   }
 }
 
+/*============ coinicon icons sizes ===========*/
+
+.ci-one {
+  font-size: 86px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-two {
+  font-size: 114px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-three {
+  font-size: 75px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-four {
+  font-size: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-five {
+  font-size: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-six {
+  font-size: 62px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-seven {
+  font-size: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.ci-eight {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
