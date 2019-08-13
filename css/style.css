@@ -10414,7 +10414,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .payment_clients_area .payment_clients_inner .clients_item {
   border-width: 5px;
   border-color: #f6f6fa;
-  display: inline-flex;
   border-style: solid;
   border-radius: 10px;
   background-color: white;
@@ -10534,7 +10533,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../img/saas/map.png) no-repeat center;
+  background: url(../img/worldmap.png) no-repeat center;
   background-size: cover;
 }
 
@@ -21517,57 +21516,57 @@ a .h_head:hover {
 
 /*============ coinicon icons sizes ===========*/
 
-.ci-one {
-  font-size: 86px;
+.one img {
+  width: 86px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-two {
-  font-size: 114px;
+.two img {
+  width: 114px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-three {
-  font-size: 75px;
+.three img {
+  width: 75px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-four {
-  font-size: 70px;
+.four img {
+  width: 90px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-five {
-  font-size: 60px;
+.five img {
+  width: 60px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-six {
-  font-size: 62px;
+.six img {
+  width: 62px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-seven {
-  font-size: 46px;
+.seven img {
+  width: 46px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
-.ci-eight {
-  font-size: 50px;
+.eight img {
+  width: 50px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
