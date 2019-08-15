@@ -12378,7 +12378,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .text_box textarea {
-  height: 220px;
+  min-height: 220px;
 }
 
 .contact_form_box .btn_three {
