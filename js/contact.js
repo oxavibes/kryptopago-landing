@@ -17,37 +17,30 @@
                     required: true,
                     minlength: 2
                 },
-                /*name2: {
-                    required: true,
-                    minlength: 2
-                },*/
                 email: {
                     required: true,
                     email: true
                 },
                 subject: {
                     required: true,
-                    minlength: 12
+                    minlength: 6
                 },
                 message: {
                     required: true,
-                    minlength: 20
                 }
             },
             messages: {
                 name: {
-                    required: "come on, your name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Por favor, ingresa tu nombre.",
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Por favor, ingresa tu email."
                 },
                 subject: {
-                    required: "please input your subject"
+                    required: "Por favor, ingresa el asunto"
                 },
                 message: {
-                    required: "uhm...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Por favor, ingresa tu mensaje",
                 }
             },
             submitHandler: function(form) {
