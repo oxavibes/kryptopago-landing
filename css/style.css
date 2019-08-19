@@ -809,8 +809,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-animation: spinner 1s infinite linear;
   animation: spinner 1s infinite linear;
   border-radius: 50%;
-  border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #000000;
+  border: 3px solid rgba(95, 46, 237, 0.2);
+  border-top-color: #5f2eed;
   height: 9em;
   margin: 0 auto 3.5em auto;
   width: 9em;
@@ -826,14 +826,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .ctn-preloader .animation-preloader .txt-loading .letters-loading {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 175, 240, .2);
   position: relative;
 }
 
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   -webkit-animation: letters-loading 4s infinite;
   animation: letters-loading 4s infinite;
-  color: #000000;
+  color: #5f2eed;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
