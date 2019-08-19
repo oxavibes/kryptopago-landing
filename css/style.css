@@ -5583,6 +5583,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   z-index: 1;
 }
 
+.dot_3 {
+  top: 97px;
+}
+
 .dot .dot1 {
   position: absolute;
   left: 50%;
@@ -5618,7 +5622,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: -68px;
+  bottom: -147px;
   top: auto;
 }
 
@@ -6157,7 +6161,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .payment_features_area {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .payment_features_area .featured_item + .featured_item {
@@ -21519,56 +21523,56 @@ a .h_head:hover {
 /*============ coinicon icons sizes ===========*/
 
 .one img {
-  width: 86px;
+  height: 86px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .two img {
-  width: 114px;
+  height: 114px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .three img {
-  width: 75px;
+  height: 75px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .four img {
-  width: 90px;
+  height: 90px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .five img {
-  width: 60px;
+  height: 60px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .six img {
-  width: 62px;
+  height: 62px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .seven img {
-  width: 46px;
+  height: 46px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
 }
 
 .eight img {
-  width: 50px;
+  height: 50px;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
