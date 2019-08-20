@@ -303,7 +303,7 @@
                 margin: 10,
                 items: 1,
                 autoplay: true,
-                smartSpeed: 2500,
+                smartSpeed: 4000,
                 autoplaySpeed: false,
                 responsiveClass: true,
                 nav: true,

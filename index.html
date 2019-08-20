@@ -461,7 +461,7 @@
                             <div class="col-sm-6">
                                 <div class="price_item wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="tag"><span>Nosotros</span></div>
-                                    <img src="img/favicon.png" alt="">
+                                    <img src="img/favicon.png" height="53"alt="">
                                     <h5 class="f_p f_size_20 f_600 t_color2 mt_30">KryptoPago</h5>
                                     <!-- <p>Create your first online course</p>
                                     <div class="price f_700 f_size_40 t_color2">$25.00<sub class="f_size_16 f_400">/
@@ -481,7 +481,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="price_item wow fadeInRight" data-wow-delay="0.3s">
-                                    <img src="img/pos.png" height="58" alt="">
+                                    <img src="img/pos.png" height="53" alt="">
                                     <h5 class="f_p f_size_20 f_600 t_color2 mt_30">Otras plataformas</h5>
                                     <!-- <p>Create your first online course</p>
                                     <div class="price f_700 f_size_40 t_color2">$25.00<sub class="f_size_16 f_400">/
@@ -561,7 +561,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn_hover agency_banner_btn pay_btn">Enviar mensaje</button>
+                        <div class="g-recaptcha" data-sitekey="6LdnALQUAAAAAOtpenP__yWjiieEJ_Cxoh7Iaxv4"></div>
+                        <button type="submit" class="btn_hover agency_banner_btn pay_btn">Enviar mensaje</button>                      
                     </form>
                     <div class="alert info" id="success">
                         <div class="alert_body">
@@ -608,11 +609,8 @@
     <script src="js/contact.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script> 
-        $(function(){
-          $(".footer_area").load("footer.html"); 
-        });
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script> $(function () { $(".footer_area").load("footer.html"); }); </script>
 </body>
 
 </html>
