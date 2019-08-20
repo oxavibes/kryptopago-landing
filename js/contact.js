@@ -3,6 +3,15 @@
 ;(function($) {
     "use strict";
 
+    let form = document.getElementById('contactForm');
+    form.addEventListener("submit", function(event){
+        if (grecaptcha.getResponse() === '') {                            
+        event.preventDefault();
+            alert('Por favor, completa el recaptcha');
+        }
+    }
+    , false);
+
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
