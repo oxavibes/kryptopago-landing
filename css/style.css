@@ -7766,6 +7766,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .payment_service_item p {
   margin-bottom: 0;
+  /*text-align: justify;
+  text-justify: auto;*/
 }
 
 /*============= stratup_service_area css =============*/
