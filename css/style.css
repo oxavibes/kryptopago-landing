@@ -398,6 +398,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_hover {
   overflow: hidden;
   display: inline-block;
+  text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
@@ -10429,7 +10430,24 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: 0px 1px 30px 0px rgba(55, 125, 162, 0.2);
   position: absolute;
   text-align: center;
+  overflow: hidden;
 }
+
+.payment_clients_area .payment_clients_inner .clients_item .soon {
+  position: absolute;
+  color: #fff;
+  background: #00aff0;
+  padding: 14px 32px 9px 32px;
+  top: -4px;
+  right: -34px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #5f2eed;
+  line-height: 1;
+  font-weight: 600;
+}
+
 
 .payment_clients_area .payment_clients_inner .clients_item img {
   position: relative;
@@ -10458,11 +10476,21 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   left: 245px;
 }
 
+.payment_clients_area .payment_clients_inner .clients_item.three .soon {
+  font-size: 10px;
+  padding: 17px 32px 9px 32px;
+}
+
 .payment_clients_area .payment_clients_inner .clients_item.four {
   width: 142px;
   height: 142px;
   left: 450px;
   top: 400px;
+}
+
+.payment_clients_area .payment_clients_inner .clients_item.four .soon {
+  padding: 17px 32px 9px 32px;
+  font-size: 9px;
 }
 
 .payment_clients_area .payment_clients_inner .clients_item.five {
@@ -10472,11 +10500,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 260px;
 }
 
+.payment_clients_area .payment_clients_inner .clients_item.five .soon {
+  font-size: 8px;
+  padding: 17px 32px 9px 32px;
+}
+
 .payment_clients_area .payment_clients_inner .clients_item.six {
   width: 100px;
   height: 100px;
   left: 425px;
   top: 180px;
+}
+
+.payment_clients_area .payment_clients_inner .clients_item.six .soon {
+  padding: 17px 32px 6px 32px;
+  top: -6px;
+  right: -34px;
+  font-size: 7px;
 }
 
 .payment_clients_area .payment_clients_inner .clients_item.seven {
@@ -10486,12 +10526,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 0px;
 }
 
+.payment_clients_area .payment_clients_inner .clients_item.seven .soon {
+  font-size: 6px;
+  padding: 13px 32px 5px 32px;
+}
+
 .payment_clients_area .payment_clients_inner .clients_item.eight {
   width: 95px;
   height: 95px;
   left: 745px;
   top: 35px;
 }
+
+.payment_clients_area .payment_clients_inner .clients_item.eight .soon {
+  padding: 15px 32px 5px 32px;
+  font-size: 8px;
+}
+
 
 /*============ payment_testimonial_area css =============*/
 .payment_testimonial_area {
