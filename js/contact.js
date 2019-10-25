@@ -24,7 +24,7 @@
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
+                    minlength: 4
                 },
                 email: {
                     required: true,
